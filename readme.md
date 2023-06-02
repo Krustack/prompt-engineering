@@ -6,6 +6,7 @@
 3. [Basic Principles of Prompt Engineering](#principles)
 4. [Practical Examples](#examples)
 5. [Ask-Before-Answer Prompting](#ask-before-answer)
+6. [Ask-Before-Answer Examples](#ask-before-answer-examples)
 
 <a name="what"></a>
 ## What is Prompt Engineering?
@@ -44,9 +45,18 @@ Ask-Before-Answer Prompting is an interactive approach to Prompt Engineering. In
 
 This method can be particularly useful when the initial prompt is vague or the requested information is complex. By asking clarifying questions, the model can better understand the user's needs and generate a response that more accurately addresses the user's intent.
 
-For example:
+<a name="ask-before-answer-examples"></a>
+## Ask-Before-Answer Examples
 
-- **Initial Prompt**: "What's the weather like?"
-  - **Ask-Before-Answer Response**: "Can you please specify the location you're interested in?"
+Here are some examples of Ask-Before-Answer prompting in action:
+
+- **Initial Prompt**: "I want to make a sandwich."
+  - **Ask-Before-Answer Response**: "Sure, what type of sandwich would you like to make? There are many options like a club sandwich, a grilled cheese sandwich, or a peanut butter and jelly sandwich."
+
+- **Initial Prompt**: "Tell me about the French Revolution."
+  - **Ask-Before-Answer Response**: "The French Revolution is a broad topic. Would you like to know about the causes, the key events, the major figures, or the impact of the French Revolution?"
+
+- **Initial Prompt**: "How can I improve my writing?"
+  - **Ask-Before-Answer Response**: "Could you please specify what aspect of your writing you'd like to improve? It could be grammar, style, vocabulary, structure, or something else."
 
 Remember, effective Prompt Engineering is a mix of art and science. With practice, you can craft prompts that elicit the desired responses from AI models.
