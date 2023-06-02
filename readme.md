@@ -6,26 +6,26 @@
 3. [Basic Principles of Prompt Engineering](#principles)
 4. [Practical Examples](#examples)
 5. [Ask-Before-Answer Prompting](#ask-before-answer)
-6. [Ask-Before-Answer Examples](#ask-before-answer-examples)
+6.
 
 <a name="what"></a>
 ## What is Prompt Engineering?
 
-Prompt Engineering refers to the process of crafting questions, instructions or statements that are given as input to an AI model to elicit a specific output. These prompts are crucial in controlling the behavior of the AI, shaping its responses, and ensuring its usefulness.
+Prompt Engineering หมายถึงกระบวนการทำคำถาม, คำแนะนำ หรือคำประโยคที่ให้เป็นข้อมูลนำเข้าให้กับโมเดล AI เพื่อผลิตผลลัพธ์ที่เฉพาะเจาะจง การสร้าง Prompt เหล่านี้เป็นสิ่งสำคัญในการควบคุมพฤติกรรมของ AI รูปร่างการตอบสนองของมัน และทำให้มันมีประโยชน์.
 
 <a name="why"></a>
 ## Why is Prompt Engineering Important?
 
-With the advent of AI models like GPT-3 and GPT-4, the ability to generate coherent and contextually appropriate responses has grown significantly. However, these models require effective prompts to guide their responses. Therefore, the art of crafting effective prompts – known as Prompt Engineering – has become an important skill in the field of AI.
+ด้วยการมาของ GPT-3 และ GPT-4 ความสามารถในการสร้างคำตอบที่สอดคล้องและเหมาะสมตามบริบทได้เพิ่มขึ้นอย่างมาก อย่างไรก็ตาม โมเดลเหล่านี้ต้องการคำสั่งที่มีประสิทธิภาพเพื่อแนะนำการตอบสนองของพวกเขา ดังนั้น ศิลปะในการสร้างคำสั่งที่มีประสิทธิภาพ - ที่รู้จักกันในชื่อของ Prompt Engineering - จึงเป็นทักษะที่สำคัญในด้าน AI
 
 <a name="principles"></a>
 ## Basic Principles of Prompt Engineering
 
 Here are some basic principles to consider when engineering prompts:
 
-1. **Clarity**: The prompt should be clear and specific. Vague prompts can lead to irrelevant or ambiguous responses.
-2. **Context**: Provide enough context within the prompt. This can help guide the AI model to generate the desired response.
-3. **Length**: The length of the prompt can impact the response. A longer prompt might be necessary to provide enough context, but an overly long prompt can limit the length of the response due to the model's maximum token limit.
+1. **ความชัดเจน**: Prompt ควรจะชัดเจนและเฉพาะเจาะจง การสร้าง Prompt ที่คลุมเครืออาจทำให้ได้คำตอบที่ไม่เกี่ยวข้องหรือมีความกำกวม
+2. **บริบท**:  ให้บริบทเพียงพอภายใน Prompt นี้สามารถช่วยแนะนำโมเดล AI เพื่อสร้างคำตอบที่ต้องการ
+3. **ความยาว**: ความยาวของ Prompt สามารถส่งผลต่อคำตอบ Prompt ที่ยาวขึ้นอาจจำเป็นต้องใช้เพื่อให้บริบทเพียงพอ แต่ Prompt ที่ยาวเกินไปสามารถจำกัดความยาวของคำตอบเนื่องจากขีดจำกัดโทเค็นสูงสุดของโมเดล
 
 <a name="examples"></a>
 ## Practical Examples
@@ -41,22 +41,5 @@ Here are some examples of prompts and their corresponding responses:
 <a name="ask-before-answer"></a>
 ## Ask-Before-Answer Prompting
 
-Ask-Before-Answer Prompting is an interactive approach to Prompt Engineering. Instead of generating a response based on an initial prompt, the model first asks clarifying questions to gather additional information that will help produce a more accurate and effective response.
+คือเทคนิคการสร้าง Prompt ที่ถามก่อนที่จะตอบ เมื่อคุณเขียนprompt เสร็จเรียบร้อยแล้ว คุณต่อท้ายprompt ไปด้วยประโยค " Before answering, I want you to first ask for any extra information that helps you produce a better answer. If you got no questions, please provide the answer instead " , "What could be improved about your this?" ฯลฯ
 
-This method can be particularly useful when the initial prompt is vague or the requested information is complex. By asking clarifying questions, the model can better understand the user's needs and generate a response that more accurately addresses the user's intent.
-
-<a name="ask-before-answer-examples"></a>
-## Ask-Before-Answer Examples
-
-Here are some examples of Ask-Before-Answer prompting in action:
-
-- **Initial Prompt**: "I want to make a sandwich."
-  - **Ask-Before-Answer Response**: "Sure, what type of sandwich would you like to make? There are many options like a club sandwich, a grilled cheese sandwich, or a peanut butter and jelly sandwich."
-
-- **Initial Prompt**: "Tell me about the French Revolution."
-  - **Ask-Before-Answer Response**: "The French Revolution is a broad topic. Would you like to know about the causes, the key events, the major figures, or the impact of the French Revolution?"
-
-- **Initial Prompt**: "How can I improve my writing?"
-  - **Ask-Before-Answer Response**: "Could you please specify what aspect of your writing you'd like to improve? It could be grammar, style, vocabulary, structure, or something else."
-
-Remember, effective Prompt Engineering is a mix of art and science. With practice, you can craft prompts that elicit the desired responses from AI models.
