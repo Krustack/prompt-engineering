@@ -41,5 +41,5 @@ Here are some examples of prompts and their corresponding responses:
 <a name="ask-before-answer"></a>
 ## Ask-Before-Answer Prompting
 
-คือเทคนิคการสร้าง Prompt ที่ถามก่อนที่จะตอบ เมื่อคุณเขียนprompt เสร็จเรียบร้อยแล้ว คุณต่อท้ายprompt ไปด้วยประโยค " Before answering, I want you to first ask for any extra information that helps you produce a better answer. If you got no questions, please provide the answer instead " , "What could be improved about your this?" ฯลฯ
+คือเทคนิคการสร้าง Prompt ที่ถามก่อนที่จะตอบ เมื่อคุณเขียนprompt เสร็จเรียบร้อยแล้ว คุณต่อท้ายprompt ไปด้วยประโยค " Before answering, I want you to first ask for any extra information that helps you produce a better answer. If you got no questions, please provide the answer instead " , "What could be improved about your this?" , "Which extra information do you need to give me a better list of advantage" ฯลฯ
 
