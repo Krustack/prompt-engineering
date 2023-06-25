@@ -6,7 +6,10 @@
 3. [Basic Principles of Prompt Engineering](#principles)
 4. [Practical Examples](#examples)
 5. [Ask-Before-Answer Prompting](#ask-before-answer)
-6.
+6. [example role](#role)
+7. [example audience](#audience)
+8. [example tone](#tone)
+9. [example style](#style)
 
 <a name="what"></a>
 ## What is Prompt Engineering?
@@ -49,6 +52,8 @@ Here are some examples of prompts and their corresponding responses:
 4. "Is there any specific industry or domain you would like me to focus on while discussing the benefits of this solution?"
 5. "Before I proceed, would you like me to clarify any terms or concepts related to this topic to ensure a better understanding?"
 
+
+<a name="role"></a>
 ## การกำหนด ROLE ให้ GPT
 1. 👩‍⚕️ Doctor
 2. 👨‍🏫 Teacher
@@ -100,6 +105,9 @@ Here are some examples of prompts and their corresponding responses:
 48. 🎓 Professor
 49. 🧑‍✈️ Pilot
 50. 🎁 Gift Shop Attendant
+
+
+<a name="audience"></a>
 ## target audience Examples
 1. 🧑‍💻 Programmers
 2. 🧒 Students
@@ -152,7 +160,8 @@ Here are some examples of prompts and their corresponding responses:
 49. 🚀 Space exploration enthusiasts
 50. 🎬 Film and cinema lovers
 
-    
+
+<a name="tone"></a>    
 ## example tone
 1. 😄 Joyful
 2. 😊 Friendly
@@ -205,6 +214,8 @@ Here are some examples of prompts and their corresponding responses:
 49. 😈 Mischievous
 50. 😅 Relieved
 
+
+<a name="style"></a>
 ## style example
 1. 📝 Formal
 2. ✒️ Professional
